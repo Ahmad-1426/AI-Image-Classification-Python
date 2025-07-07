@@ -42,6 +42,8 @@ To run the Python prediction script, you need:
 - TensorFlow  
   ```bash
   pip install tensorflow
+
+ ## 5.Components
 | Item                      | Description                              |
 | ------------------------- | ---------------------------------------- |
 | Teachable Machine         | Used to create and export the ML model   |
@@ -50,7 +52,7 @@ To run the Python prediction script, you need:
 | Python + Keras + Pillow   | Required libraries for running inference |
 | `test.jpg` (or any image) | Image to classify                        |
 
-6. How the Model Was Trained
+## 6. How the Model Was Trained
 Visited Teachable Machine.
 
 Selected Image Project > Standard Image Model.
@@ -69,7 +71,7 @@ Exported the model:
 
 Export Model → TensorFlow → Keras (keras_model.h5 + labels.txt)
 
-7. How It Works
+## 7. How It Works
 The script loads the model and labels.
 
 An input image is resized to 224x224 and normalized.
@@ -82,7 +84,7 @@ The predicted class name (Apple or Pineapple).
 
 The confidence score (how sure the model is).
 
-8. python code with output:
+## 8. python code with output:
 
 
 
