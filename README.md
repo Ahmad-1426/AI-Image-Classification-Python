@@ -83,6 +83,10 @@ The predicted class name (Apple or Pineapple).
 The confidence score (how sure the model is).
 
 8. python code with output:
+
+
+
+
    ![image](https://github.com/user-attachments/assets/4677303c-277f-492f-90b3-f683257b9230)
 
 
